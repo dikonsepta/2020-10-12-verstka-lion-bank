@@ -1,0 +1,58 @@
+.paginator {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.paginator a {
+    font-weight: bold;
+}
+
+.paginator__display,
+.paginator__list {
+    display: flex;
+    margin-right: 25px;
+}
+
+.paginator__item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    line-height: 32px;
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    background: rgba(53, 52, 57, 0);
+    cursor: pointer;
+}
+
+.paginator.light-theme ul li:hover,
+.paginator.light-theme ul .active-pager,
+.paginator.dark-theme ul li:hover,
+.paginator.dark-theme ul .active-pager {
+    background: rgba(53, 52, 57, 1);
+}
+
+.paginator.light-theme *,
+.paginator.dark-theme .active-pager a .paginator.dark-theme ul li:hover a {
+    color: #353439;
+}
+
+.paginator.dark-theme *,
+.paginator.light-theme .active-pager a,
+.paginator.light-theme ul li:hover a {
+    color: #fff;
+}
+
+.news .paginator {
+    margin-top: 54px;
+}
+
+.offers .paginator {
+    margin-top: 20px;
+}
+
+.reviews .paginator {
+    margin-top: 54px;
+}

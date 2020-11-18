@@ -1,0 +1,33 @@
+section.about {
+    margin-top: 10px;
+}
+
+.about .container:before {
+    content: "";
+    display: block;
+    width: 490px;
+    height: 505px;
+    align-self: start;
+    background-size: cover;
+    background-position: right bottom;
+    background-repeat: no-repeat;
+    background-image: url(/2020-10-12-verstka-lion-bank/images/photo/about-chess.jpg);
+}
+
+.about__description {
+    width: 69%;
+    background: #202123;
+    border-radius: 5px;
+    margin-left: -380px;
+    margin-top: 100px;
+    padding: 70px 80px;
+}
+
+.for-about {
+    margin-bottom: 70px;
+}
+
+.about p {
+    width: 85%;
+    margin-bottom: 25px;
+}

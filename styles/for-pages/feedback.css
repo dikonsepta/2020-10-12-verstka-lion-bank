@@ -1,0 +1,14 @@
+@import url("../layout/normalize.css");
+@import url("../layout/base.css");
+@import url("../layout/titles.css");
+@import url("../block/header-footer.css");
+@import url("../block/dropdown.css");
+@import url("../layout/background.css");
+/* Особенные блоки данной страницы */
+@import url("../block/cover.css");
+@import url("../block/breadcrumbs.css");
+@import url("../block/reviews.css");
+@import url("../block/paginator.css");
+@import url("../block/mobile.css");
+@import url("../block/form.css");
+@import url("../block/tags.css");

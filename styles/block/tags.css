@@ -1,0 +1,34 @@
+ul.tags-list {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+ul li.tag,
+ul li .tag {
+    height: 36px;
+    color: #303030;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 1.38;
+    background-color: #E7E7E7;
+    padding: 10px 15px;
+    margin-right: 15px;
+    margin-bottom: 10px;
+    border-radius: 35px;
+}
+
+.reviews ul li.tag,
+.reviews ul li .tag {
+    padding: 10px 25px;
+}
+
+ul li.tag:hover,
+ul li .tag:hover {
+    background-color: #B9EAE4;
+    cursor: pointer;
+}
+
+ul .tag:last-child {
+    margin-right: 0px;
+}

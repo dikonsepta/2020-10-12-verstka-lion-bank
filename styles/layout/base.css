@@ -1,0 +1,174 @@
+* {
+    font-family: 'Open Sans', 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 1.69;
+    color: #fff;
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    border: none;
+    outline: none;
+    background: center center no-repeat;
+    /* transition: .3s; */
+}
+
+*:hover {
+    transition: .3s;
+}
+
+*:hover * {
+    transition: .3s;
+}
+
+*:before {
+    transition: .3s;
+}
+
+*:after {
+    transition: .3s;
+}
+
+*:hover:before {
+    transition: .3s;
+}
+
+*:hover:after {
+    transition: .3s;
+}
+
+html,
+body {
+    height: 100%;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.wrapper {
+    display: flex;
+    flex-flow: column wrap;
+    overflow: hidden;
+    min-height: 100%;
+}
+
+.wrapper__flex-one {
+    flex: 1;
+}
+
+.container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+    overflow: visible;
+    max-width: 1200px;
+    padding: 0px 30px;
+    margin: 0 auto;
+}
+
+section:not(:last-of-type) {
+    padding-bottom: 130px;
+}
+
+section:last-of-type {
+    padding-bottom: 54px;
+}
+
+a {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+a:hover,
+.active-link {
+    color: #DFB56D;
+}
+
+button {
+    /* min-width: 165px; */
+    min-height: 50px;
+    padding: 16px 38px;
+    border-radius: 5px;
+    color: #fff;
+    background: #DFB56D;
+    box-shadow: 0px 8px 35px rgba(223, 181, 109, .35);
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 1.36;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #D3A557;
+    box-shadow: 0px 8px 35px rgba(223, 181, 109, .7);
+}
+
+.button-yellow {
+    background: #DFB56D;
+}
+
+.button-black:hover {
+    background: #DFB56D;
+}
+
+.button-black {
+    background: #2B2B2B;
+}
+
+.button-gray {
+    background: #8E8E8E;
+}
+
+.button-gray:hover {
+    background: #2B2B2B;
+}
+
+.list-module {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.list-module li {
+    flex: 1;
+    display: flex;
+    flex-flow: column wrap;
+    background-color: #fff;
+    border-radius: 5px;
+    margin-right: 25px;
+}
+
+.list-columns {
+    display: block;
+    column-count: 2;
+    column-gap: 25px;
+    column-width: 480px;
+}
+
+.list-columns * {
+    flex-flow: column wrap;
+    border-radius: 5px;
+}
+
+ul,
+li {
+    display: inline-flex;
+}
+
+ul li {
+    list-style: none;
+}
+
+li:last-child {
+    margin: 0px;
+    padding: 0px;
+}
+
+time {
+    display: block;
+}
+
+time * {
+    display: inline;
+}

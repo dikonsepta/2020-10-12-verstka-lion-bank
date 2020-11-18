@@ -1,0 +1,113 @@
+@import url("../layout/normalize.css");
+@import url("../layout/base.css");
+@import url("../layout/titles.css");
+@import url("../layout/background.css");
+/* Особенные блоки данной страницы */
+
+#welcome-body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.welcome-page {
+    min-width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.flare {
+    position: fixed;
+    width: 35vw;
+    bottom: 5vw;
+    right: 22vw;
+}
+
+.logo-vertical {
+    width: 139px;
+    height: 174px;
+}
+
+.welcome-page button {
+    margin-top: 60px;
+}
+
+.animated {
+    z-index: 100;
+    display: flex;
+    align-items: center;
+    flex-flow: column;
+    animation: bounce .8s 1.2s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    opacity: 0;
+}
+
+@keyframes bounce {
+    0% {
+        transform: translateY(0);
+    }
+
+    34% {
+        animation-timing-function: cubic-bezier(.6, 0, 1, 1);
+        transform: translateY(-30px);
+    }
+
+
+    48% {
+        animation-timing-function: cubic-bezier(0, 0, 1.6, 1);
+        transform: translateY(0);
+    }
+
+    72% {
+        animation-timing-function: cubic-bezier(.6, 0, 1, 1);
+        transform: translateY(-15px);
+    }
+
+
+    100% {
+        opacity: 100;
+        animation-timing-function: cubic-bezier(0, 0, 1.6, 1);
+        transform: translateY(0);
+    }
+}
+
+/* @keyframes bounce {
+    0% {
+        transform: translateY(0);
+    }
+
+    20% {
+        animation-timing-function: cubic-bezier(.2, 1, .6, 1);
+        opacity: 100;
+        transform: translateY(-30px);
+    }
+
+
+    35% {
+        transform: translateY(0);
+    }
+
+    55% {
+        transform: translateY(-15px);
+    }
+
+    65% {
+        transform: translateY(0);
+    }
+
+    70% {
+        transform: translateY(-15px);
+    }
+
+    80% {
+        transform: translateY(0);
+    }
+
+    100% {
+        opacity: 100;
+        transform: translateY(0);
+    }
+} */

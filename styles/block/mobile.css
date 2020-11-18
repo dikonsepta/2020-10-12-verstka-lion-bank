@@ -1,0 +1,18 @@
+section.mobile {
+    padding: 0px;
+    max-height: 480px;
+}
+
+.mobile .container {
+    overflow: hidden;
+    padding-bottom: 0px;
+    flex-flow: row nowrap;
+    background-size: auto;
+    background-position: 92% -32%;
+    background-image: url(/2020-10-12-verstka-lion-bank/images/mobile.png);
+}
+
+.mobile h2 {
+    width: 40%;
+    margin: 84px 0px;
+}

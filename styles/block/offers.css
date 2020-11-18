@@ -1,0 +1,70 @@
+.offers .container {
+    padding: 60px 0px 0px 0px;
+}
+
+.offers p,
+.offers span {
+    color: #303030;
+}
+
+.offers button {
+    color: #fff;
+}
+
+.offers .offers__list {
+    column-count: 1;
+}
+
+.offers__list .offers__item {
+    display: flex;
+    flex-flow: row nowrap;
+    padding: 30px;
+    margin-bottom: 50px;
+    /* min-height: 450px; */
+}
+
+.offers .offers__pic {
+    display: inline-block;
+    height: 333px;
+    width: 100%;
+    margin-right: 60px;
+    margin-bottom: 54px;
+}
+
+.offers__pic.autocredit {
+    background-size: cover;
+    background-image: url(/2020-10-12-verstka-lion-bank/images/photo/services-auto.jpg);
+}
+
+.offers__pic.mortgage {
+    background-size: cover;
+    background-image: url(/2020-10-12-verstka-lion-bank/images/photo/services-home.jpg);
+}
+
+/* .offers__content h3 {
+    width: 94%;
+} */
+
+/* .offers__content p {
+    width: 82%;
+} */
+
+.offers__content {
+    width: 136%;
+}
+
+.offers__list .offers__item:hover {
+    background-color: #F5F5F5;
+}
+
+.offers__list .offers__item:hover button {
+    background: #D3A557;
+}
+
+.offers__description {
+    margin-bottom: 54px;
+}
+
+.offers__description p {
+    margin-bottom: 25px;
+}

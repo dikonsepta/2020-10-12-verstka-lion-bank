@@ -1,0 +1,117 @@
+section.reviews {
+    padding-bottom: 74px;
+}
+
+.reviews .container {
+    padding-top: 90px;
+}
+
+.second-page .reviews h3 {
+    display: inline-flex;
+    margin-bottom: 3px;
+    color: #1A1B1E;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 1.75;
+}
+
+.reviews__link {
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    margin-top: 16px;
+}
+
+.reviews__vk {
+    width: 30px;
+    height: 30px;
+    margin-left: 10px;
+    filter: grayscale(100%);
+}
+
+.reviews__link:hover h3 {
+    text-decoration-line: underline;
+    color: #2E77A4;
+}
+
+.second-page .reviews h2 {
+    margin-top: 30px;
+    margin-bottom: 13px;
+    color: #202020;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 1.40;
+}
+
+.second-page .reviews__list p {
+    margin-bottom: 50px;
+    color: #818181;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 1.69;
+}
+
+.second-page .reviews time span {
+    color: #1A1B1E;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 1.93;
+}
+
+.reviews ul .reviews__item {
+    margin-bottom: 16px;
+    padding: 54px 30px 30px;
+    background-color: #F4F5F5;
+}
+
+.reviews__cover {
+    display: flex;
+    flex-flow: row nowrap;
+}
+
+.reviews__avatar {
+    margin-right: 20px;
+    background-color: #ccc;
+    min-width: 142px;
+    min-height: 142px;
+    border-radius: 50%;
+}
+
+.reviews__id {
+    display: flex;
+    flex-flow: column wrap;
+    align-self: center;
+}
+
+.reviews .reviews__tags-list {
+    margin-right: auto;
+}
+
+.reviews__link:hover .reviews__vk {
+    filter: grayscale(0%);
+}
+
+.avatar-one {
+    background-size: contain;
+    background-image: url(/2020-10-12-verstka-lion-bank/images/reviews/ginger.jpg);
+}
+
+.avatar-two {
+    background-size: contain;
+    background-image: url(/2020-10-12-verstka-lion-bank/images/reviews/liza.jpg);
+}
+
+
+.avatar-three {
+    background-size: contain;
+    background-image: url(/2020-10-12-verstka-lion-bank/images/reviews/girl.jpg);
+}
+
+.avatar-four {
+    background-size: contain;
+    background-image: url(/2020-10-12-verstka-lion-bank/images/reviews/guy.jpg);
+}

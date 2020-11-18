@@ -1,0 +1,35 @@
+.main-page {
+    background: url(/2020-10-12-verstka-lion-bank/images/lion-header.jpg) center top no-repeat,
+        url(/2020-10-12-verstka-lion-bank/images/lion-botton.png) right -215px bottom 260px no-repeat;
+}
+
+.second-page {
+    background: url(/2020-10-12-verstka-lion-bank/images/lion-cover.jpg) center top no-repeat;
+}
+
+.welcome-page {
+    background: url(/2020-10-12-verstka-lion-bank/images/splash.jpg) center center / cover no-repeat;
+}
+
+.main-page {
+    background-color: #29282D;
+}
+
+.second-page,
+.welcome-page {
+    background-color: #202123;
+}
+
+.second-page section.offers,
+.second-page section.reviews {
+    background-color: #fff;
+}
+
+.second-page section.mobile {
+    background-color: #E5C288;
+}
+
+.second-page section.partners,
+.second-page section.form {
+    background-color: #F5F5F5;
+}

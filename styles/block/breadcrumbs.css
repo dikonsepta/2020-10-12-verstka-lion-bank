@@ -1,0 +1,27 @@
+.breadcrumbs {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin: 25px 0px;
+}
+
+.breadcrumbs__link {
+    color: #DFB56D;
+    font-size: 14px;
+    line-height: 1.36;
+    text-decoration-line: underline;
+    cursor: pointer;
+}
+
+.breadcrumbs__item .active-link {
+    font-weight: bold;
+    color: #9A9A9A;
+}
+
+.breadcrumbs__item:not(:last-child)::after {
+    content: "/";
+    margin: 0px 5px;
+    color: #9A9A9A;
+    font-size: 14px;
+    line-height: 1.36;
+}

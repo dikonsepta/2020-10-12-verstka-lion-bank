@@ -1,0 +1,37 @@
+.partners .container {
+    padding-top: 90px;
+}
+
+.partners__list {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    cursor: pointer;
+}
+
+.partners__link {
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+
+.partners__item {
+    height: 75px;
+    margin: 0px 50px 54px 0px;
+}
+
+.partners__pic {
+    filter: grayscale(100%);
+}
+
+.partners__pic:hover {
+    filter: grayscale(0%);
+}
+
+.partners__item:nth-child(4n) {
+    margin-right: 0px;
+}
+
+/* .partners__item:nth-child(n+4) {
+    margin-bottom: 0px;
+} */

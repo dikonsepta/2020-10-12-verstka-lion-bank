@@ -1,0 +1,101 @@
+.best__cover {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px 5px 0px 0px;
+    height: 144px;
+    overflow: hidden;
+    position: relative;
+}
+
+/* .best__cover.grey {
+    background-image: url(/2020-10-12-verstka-lion-bank/images/graphics/card-grey-bg.png);
+}
+
+.best__cover.blue {
+    background-image: url(/2020-10-12-verstka-lion-bank/images/graphics/card-blue-bg.png);
+}
+
+.best__cover.gold {
+    background-image: url(/2020-10-12-verstka-lion-bank/images/graphics/card-gold-bg.png);
+} */
+
+.cards {
+    z-index: 100;
+    width: 88px;
+    height: 64px;
+}
+
+.best__cover:before {
+    content: "";
+    width: 284px;
+    height: 284px;
+    border-radius: 50%;
+    position: absolute;
+    top: -160px;
+    right: -105px;
+    background: #29282D;
+}
+
+.grey-circle .best__cover:before {
+    background: #A7A7A7;
+}
+
+.blue-circle .best__cover:before {
+    background: #596483;
+}
+
+.gold-circle .best__cover:before {
+    background: #988657;
+}
+
+.best__list .best__item {
+    display: flex;
+    flex-flow: column wrap;
+    /* min-width: 362px; */
+    cursor: default;
+}
+
+.best__content {
+    flex: 1;
+    display: flex;
+    flex-flow: column wrap;
+    padding: 35px 22px 26px;
+}
+
+.options {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    padding: 20px 0px 45px;
+}
+
+.service,
+.cashback {
+    flex: 1;
+    flex-flow: column wrap;
+}
+
+.for-numb {
+    width: 90%;
+}
+
+.best h3 {
+    color: #000;
+}
+
+.numbers p {
+    color: #000;
+    font-size: 36px;
+    line-height: 1.36;
+}
+
+.for-numb p {
+    margin-top: 4px;
+    color: #666;
+    line-height: 1.36;
+}
+
+.best button {
+    margin: auto auto 0;
+}

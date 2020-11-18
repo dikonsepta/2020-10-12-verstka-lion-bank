@@ -1,0 +1,31 @@
+.news li.news__item {
+    min-height: 394px;
+    /* min-width: 557px; */
+    padding: 250px 30px 15px;
+    cursor: pointer;
+}
+
+.phone {
+    background-size: cover;
+    background-image: linear-gradient(0deg, rgba(90, 90, 90, 0.35), rgba(90, 90, 90, 0.35)), url(/2020-10-12-verstka-lion-bank/images/photo/news-phone.jpg);
+}
+
+.mountains {
+    background-size: cover;
+    background-image: linear-gradient(0deg, rgba(90, 90, 90, 0.4), rgba(90, 90, 90, 0.4)), url(/2020-10-12-verstka-lion-bank/images/photo/news-mountains.jpg);
+}
+
+.news__item span,
+.news__item p {
+    line-height: 1.5;
+    width: 85%;
+}
+
+.news h3 {
+    margin: 8px 0px 4px 0px;
+    line-height: 1.5;
+}
+
+.news span {
+    font-size: 14px;
+}

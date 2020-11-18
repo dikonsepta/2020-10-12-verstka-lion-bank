@@ -1,0 +1,181 @@
+header .container {
+    padding-top: 20px;
+}
+
+header .contacts {
+    display: flex;
+    flex-flow: column wrap;
+    margin-top: 5px;
+    margin-left: auto;
+}
+
+footer .container {
+    max-width: 1140px;
+    padding: 40px 0px 54px;
+    border-top: 1px solid rgba(255, 255, 255, .1);
+}
+
+footer .contacts {
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+}
+
+.logo {
+    width: 165px;
+    height: 30px;
+}
+
+.menu__list {
+    padding-left: 90px;
+}
+
+.menu__item {
+    padding-right: 54px;
+}
+
+.menu__link {
+    font-size: 14px;
+}
+
+.contacts__list {
+    margin-right: 75px;
+    height: 36px;
+}
+
+.contacts__item {
+    position: relative;
+    border-radius: 50%;
+    width: 36px;
+    height: 36px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.contacts__item:after {
+    content: "";
+    display: block;
+    position: absolute;
+    border-radius: 50%;
+    width: 36px;
+    height: 36px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-image: url(/2020-10-12-verstka-lion-bank/images/socials/socials_sprites.png);
+    background-size: 168px;
+    opacity: 1;
+}
+
+.contacts__item:before {
+    content: "";
+    display: block;
+    position: absolute;
+    border-radius: 50%;
+    width: 36px;
+    height: 36px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-image: url(/2020-10-12-verstka-lion-bank/images/socials/socials_sprites.png);
+    background-size: 168px;
+    opacity: 0;
+}
+
+.contacts__item:hover:before {
+    opacity: 1;
+}
+
+.contacts__item:hover:after {
+    opacity: 0;
+}
+
+
+.Telegram:after {
+    background-position: -122px -10px;
+}
+
+.Telegram:before {
+    background-position: -122px -66px;
+}
+
+.Vkontakte:after {
+    background-position: -10px -122px;
+}
+
+.Vkontakte:before {
+    background-position: -66px -122px;
+}
+
+.Facebook:after {
+    background-position: -10px -10px;
+}
+
+.Facebook:before {
+    background-position: -66px -10px;
+}
+
+.Instagram:after {
+    background-position: -10px -66px;
+}
+
+.Instagram:before {
+    background-position: -66px -66px;
+}
+
+/* .contacts__list .Telegram {
+    background-image: url(/2020-10-12-verstka-lion-bank/images/socials/telegram.png);
+}
+
+.contacts__list .Telegram:hover {
+    background-image: url(/2020-10-12-verstka-lion-bank/images/socials/telegram-hover.png);
+}
+
+.contacts__list .Vkontakte {
+    background-image: url(/2020-10-12-verstka-lion-bank/images/socials/vk.png);
+}
+
+.contacts__list .Vkontakte:hover {
+    background-image: url(/2020-10-12-verstka-lion-bank/images/socials/vk-hover.png);
+}
+
+.contacts__list .Facebook {
+    background-image: url(/2020-10-12-verstka-lion-bank/images/socials/facebook.png);
+}
+
+.contacts__list .Facebook:hover {
+    background-image: url(/2020-10-12-verstka-lion-bank/images/socials/facebook-hover.png);
+}
+
+.contacts__list .Instagram {
+    background-image: url(/2020-10-12-verstka-lion-bank/images/socials/instagram.png);
+}
+
+.contacts__list .Instagram:hover {
+    background-image: url(/2020-10-12-verstka-lion-bank/images/socials/instagram-hover.png);
+} */
+
+.contacts__phone {
+    margin-left: auto;
+    font-size: 26px;
+    line-height: 1.36;
+}
+
+.contacts__phone:hover {
+    color: #fff;
+}
+
+.contacts__freecall-phone {
+    display: flex;
+    flex-flow: column wrap;
+}
+
+.contacts__freecall p {
+    font-size: 11px;
+    line-height: 1.82;
+    color: #9A9A9A;
+}
+
+.contacts__freecall {
+    margin-left: auto;
+}
