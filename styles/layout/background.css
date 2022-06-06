@@ -1,14 +1,14 @@
 .main-page {
-    background: url(/2020-10-12-verstka-lion-bank/images/lion-header.jpg) center top no-repeat,
-        url(/2020-10-12-verstka-lion-bank/images/lion-botton.png) right -215px bottom 260px no-repeat;
+    background: url(/lionbank/images/lion-header.jpg) center top no-repeat,
+        url(/lionbank/images/lion-botton.png) right -215px bottom 260px no-repeat;
 }
 
 .second-page {
-    background: url(/2020-10-12-verstka-lion-bank/images/lion-cover.jpg) center top no-repeat;
+    background: url(/lionbank/images/lion-cover.jpg) center top no-repeat;
 }
 
 .welcome-page {
-    background: url(/2020-10-12-verstka-lion-bank/images/splash.jpg) center center / cover no-repeat;
+    background: url(/lionbank/images/splash.jpg) center center / cover no-repeat;
 }
 
 .main-page {

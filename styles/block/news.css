@@ -7,12 +7,12 @@
 
 .phone {
     background-size: cover;
-    background-image: linear-gradient(0deg, rgba(90, 90, 90, 0.35), rgba(90, 90, 90, 0.35)), url(/2020-10-12-verstka-lion-bank/images/photo/news-phone.jpg);
+    background-image: linear-gradient(0deg, rgba(90, 90, 90, 0.35), rgba(90, 90, 90, 0.35)), url(/lionbank/images/photo/news-phone.jpg);
 }
 
 .mountains {
     background-size: cover;
-    background-image: linear-gradient(0deg, rgba(90, 90, 90, 0.4), rgba(90, 90, 90, 0.4)), url(/2020-10-12-verstka-lion-bank/images/photo/news-mountains.jpg);
+    background-image: linear-gradient(0deg, rgba(90, 90, 90, 0.4), rgba(90, 90, 90, 0.4)), url(/lionbank/images/photo/news-mountains.jpg);
 }
 
 .news__item span,

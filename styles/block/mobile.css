@@ -9,7 +9,7 @@ section.mobile {
     flex-flow: row nowrap;
     background-size: auto;
     background-position: 92% -32%;
-    background-image: url(/2020-10-12-verstka-lion-bank/images/mobile.png);
+    background-image: url(/lionbank/images/mobile.png);
 }
 
 .mobile h2 {

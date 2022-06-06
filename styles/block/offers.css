@@ -33,12 +33,12 @@
 
 .offers__pic.autocredit {
     background-size: cover;
-    background-image: url(/2020-10-12-verstka-lion-bank/images/photo/services-auto.jpg);
+    background-image: url(/lionbank/images/photo/services-auto.jpg);
 }
 
 .offers__pic.mortgage {
     background-size: cover;
-    background-image: url(/2020-10-12-verstka-lion-bank/images/photo/services-home.jpg);
+    background-image: url(/lionbank/images/photo/services-home.jpg);
 }
 
 /* .offers__content h3 {
