@@ -1,3 +1,7 @@
+:root {
+    color-scheme: only light;
+}
+
 * {
     font-family: 'Open Sans', 'Roboto', sans-serif;
     font-style: normal;
@@ -144,6 +148,7 @@ button:hover {
     column-count: 2;
     column-gap: 25px;
     column-width: 480px;
+    width: 100%;
 }
 
 .list-columns * {
